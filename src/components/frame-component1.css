@@ -1,0 +1,150 @@
+.chat-icon {
+  align-self: stretch;
+  height: 75px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.melon-musk {
+  margin: 0;
+  height: 40px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+}
+.clarityedit-solid-icon {
+  height: 34px;
+  width: 34px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.melon-musk-parent {
+  width: 417px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  font-size: var(--font-size-15xl);
+}
+.frame-child11 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+}
+.about {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 53px;
+}
+.clarityedit-solid-icon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.about-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.i-am-a {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 21.6px;
+  color: var(--color-darkgray-100);
+  display: inline-block;
+  white-space: nowrap;
+  max-width: 100%;
+}
+.frame-parent11 {
+  width: 417px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.btechgmailcom,
+.email {
+  position: relative;
+  letter-spacing: 0.05em;
+}
+.email {
+  text-decoration: none;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 50px;
+}
+.btechgmailcom {
+  color: var(--color-darkgray-100);
+  white-space: nowrap;
+}
+.chat-parent2,
+.frame-parent12 {
+  width: 417px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.chat-parent2 {
+  width: 500px;
+  background-color: var(--color-whitesmoke-100);
+  align-items: center;
+  padding: var(--padding-109xl) 0 var(--padding-595xl);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 825px) {
+  .melon-musk {
+    font-size: var(--font-size-8xl);
+  }
+  .chat-parent2 {
+    padding-top: var(--padding-64xl);
+    padding-bottom: var(--padding-380xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .melon-musk {
+    font-size: var(--font-size-xl);
+  }
+  .melon-musk-parent {
+    flex-wrap: wrap;
+  }
+  .frame-parent11 {
+    display: none;
+  }
+  .chat-parent2 {
+    padding-top: var(--padding-35xl);
+    padding-bottom: var(--padding-240xl);
+    box-sizing: border-box;
+  }
+}

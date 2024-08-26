@@ -1,0 +1,81 @@
+.chat-item {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.friends-forever1 {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 21.6px;
+  font-weight: 600;
+}
+.today-952pm1 {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.01em;
+  font-weight: 300;
+  color: var(--color-gray-100);
+  display: inline-block;
+  min-width: 105px;
+}
+.friends-forever-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.hahahahah1 {
+  height: 19px;
+  width: 93px;
+  position: relative;
+  letter-spacing: 0.05em;
+  font-weight: 300;
+  display: inline-block;
+}
+.vector-icon3 {
+  height: 24.4px;
+  width: 24.4px;
+  position: relative;
+}
+.hahahahah-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-base);
+}
+.chat1,
+.frame-parent9 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent9 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 240px;
+}
+.chat1 {
+  align-self: stretch;
+  background-color: var(--color-whitesmoke-100);
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 450px) {
+  .chat1,
+  .friends-forever-parent {
+    flex-wrap: wrap;
+  }
+}

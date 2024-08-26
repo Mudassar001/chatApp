@@ -1,0 +1,35 @@
+.profiles-child {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  border-radius: var(--br-9980xl);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.profiles {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs);
+}
+.profile {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+}
+.profiles-parent {
+  align-self: stretch;
+  background-color: var(--color-mediumslateblue);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+}

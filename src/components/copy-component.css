@@ -1,0 +1,214 @@
+.sign-up-heading,
+.subheading {
+  align-self: stretch;
+  position: relative;
+}
+.sign-up-heading {
+  margin: 0;
+  font-size: inherit;
+  line-height: 47px;
+  font-weight: 900;
+  font-family: inherit;
+}
+.subheading {
+  font-size: var(--font-size-lg);
+  line-height: 150%;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+}
+.heading-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-17xl);
+  color: var(--color-whitesmoke-200);
+  font-family: var(--font-playfair-display);
+}
+.placeholder-text {
+  width: 101px;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 160%;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.input-form,
+.text-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.text-container {
+  flex: 1;
+  padding: 0 var(--padding-9xs);
+}
+.input-form {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-gray-200);
+  border: 1px solid var(--color-dimgray-200);
+  padding: var(--padding-sm) var(--padding-mini);
+}
+.placeholder-text1 {
+  width: 128px;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 160%;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.cta,
+.input {
+  max-width: 100%;
+}
+.input {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.cta {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 160%;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+}
+.button,
+.text-container2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.text-container2 {
+  flex: 1;
+  padding: 0 var(--padding-9xs);
+}
+.button {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-mediumslateblue);
+  padding: var(--padding-base) var(--padding-5xl);
+  cursor: pointer;
+}
+.button,
+.form,
+.line {
+  align-self: stretch;
+}
+.form {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.line {
+  height: 1px;
+  position: relative;
+  background-color: var(--color-dimgray-200);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.line-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+  min-width: 116px;
+}
+.or {
+  position: relative;
+  line-height: 160%;
+  display: inline-block;
+  min-width: 11px;
+}
+.separator {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.by-continuing-you {
+  align-self: stretch;
+  position: relative;
+  text-decoration: underline;
+  line-height: 160%;
+}
+.copy-component {
+  width: 100%;
+  border-radius: var(--br-13xl);
+  background-color: var(--color-gray-200);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-13xl);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  max-width: 480px;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 750px) {
+  .sign-up-heading {
+    font-size: var(--font-size-10xl);
+    line-height: 37px;
+  }
+  .copy-component {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sign-up-heading {
+    font-size: var(--font-size-3xl);
+    line-height: 28px;
+  }
+  .or {
+    width: 100%;
+    height: 11px;
+  }
+  .separator {
+    flex-wrap: wrap;
+  }
+  .copy-component {
+    padding-top: var(--padding-2xl);
+    padding-bottom: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}
